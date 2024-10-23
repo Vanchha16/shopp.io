@@ -1,0 +1,63 @@
+.smail-container{
+    max-width: 1080px;
+    margin: auto;
+}
+
+.card-page{
+    margin: 80px auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+th{
+    text-align: left;
+    background-color: #ff523b;
+    padding: 5px;
+    color: white;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+td{
+    padding: 10px 5px;
+}
+
+td img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+
+.info a{
+    color: #ff523b;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+td input{
+    width: 80px;
+    padding: 5px;
+}
+
+.total-price{
+    display: flex;
+    justify-content: end;
+}
+
+.total-price table{
+    max-width: 400px;
+    border-top: 3px solid #ff523b;
+}
+
+td:last-child{
+    text-align: right;
+}
